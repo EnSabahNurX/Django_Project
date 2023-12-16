@@ -4,8 +4,6 @@ RUN adduser -D python
 
 RUN pip install pipenv
 
-RUN pipenv install django
-
 USER python
 
 WORKDIR /home/python/app
