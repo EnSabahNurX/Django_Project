@@ -1,7 +1,5 @@
 FROM python:alpine
 
-RUN apk add bash-completion
-
 RUN adduser -D python
 
 RUN pip install pipenv
