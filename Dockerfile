@@ -1,6 +1,6 @@
 FROM python:alpine
 
-RUN useradd -ms /bin/bash python
+RUN adduser -D python
 
 RUN pip install pipenv
 
