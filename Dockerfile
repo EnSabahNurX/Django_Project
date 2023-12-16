@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:alpine
 
 RUN useradd -ms /bin/bash python
 
