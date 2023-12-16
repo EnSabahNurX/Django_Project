@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  djangoproject:
-    image: djangoproject
-    build:
-      context: .
-      dockerfile: ./Dockerfile
